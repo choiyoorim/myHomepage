@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="kr">
+<title>YooRim's Homepage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .half img:hover {
+        opacity: 1
+    }
+
+    a:link {
+        color: rgb(109, 144, 182);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: black;
+    }
+
+    a:visited {
+        color: rgb(84, 127, 173);
+    }
+
+    .fa {
+        padding: 20px;
+        font-size: 50px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    @media (max-width: 600px) {
+        #side {
+            display: none;
+        }
+
+        .main {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+</style>
+
+<body>
+
+    <!-- 왼쪽 사이드 메뉴 -->
+    <div id="side">
+        <nav class="sidebar colorname" style="width:180px; font-weight:bold;">
+
+            <div class="bar-block">
+                <a href="#int">INTERESTS</a> <br>
+                <a href="#edu">EDUCATION</a> <br>
+                <a href="#hob">HOBBY</a> <br>
+                <a href="#con">CONTACT</a> <br>
+            </div>
+        </nav>
+    </div>
+
+  
+    <div class="main" style="margin-left:200px; margin-right:40px;">
+        <h2 class="caption"> Welcome To My World Of 'Life' </h2>
+
+    
+        <div class="container" style="margin-top:0px;">
+            <h1 class="jumbo"><b>CYR </b></h1>
+            <h1 class="xxxlarge colorname" id="interests"><b>interests</b></h1>
+            <hr style="width:50%; border:3px solid black; float: left; clear: both; "> <br>
+        </div>
+
+        
+        <div class="imgpadding">
+            <div class="half">
+                <img src="first.jpeg" style="width:50%"  alt="초이">
+                <img src="second.jpg" style="width:80%" alt="고양이">
+                <img src="third.jpg" style="width:80%" alt="떡볶이">
+            </div>
+
+            <div class="half">
+                <img src="fourth.jpg" style="width:90%" alt="넷플릭스">
+                <img src="fifth.jpg" style="width:80%" alt="인테리어">
+                <img src="sixth.jpg" style="width:80%" alt="과제">
+            </div>
+        </div>
+
+
+        <div class="container" id="edu" style="margin-top:75px">
+            <h1 class="xxxlarge colorname"><b>education</b></h1>
+            <hr style="width:50%; border:3px solid black; float: left; clear: both; "> <br>
+            <p>컴퓨터공학과에 진학한 후... </p>
+            <p>컴퓨터공학과에 진학하여 관련된 전공에 대해 공부하고 있습니다. 처음에는 괜찮았으나 점점 어려워지는 난이도로 걱정하고 있습니다. 
+                특히 파이썬 프로그램이나 웹프로그래밍과 같은 직접 코딩하는 수업들이 낯설어 더 많은 시간을 헤맸던 것 같습니다.
+                그래도 컴퓨터공학과에 들어온 동기를 꾸준히 생각하며 열심히 하고 있습니다. 편한 프로그램들을 만들어 꼭 사람들에게 도움을 줄 수 있으면 좋겠습니다.
+                언젠간 더 잘할 수 있겠다는 믿음으로 열심히 하다보면 제 목표에 도달할 수 있겠죠??
+            </p>
+        </div>
+
+   
+        <div class="container" id="hob" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>hobby</b></h1>
+            <hr style="width:50%; border:3px solid black; float: left; clear: both; "> <br>
+            <p>제 요즘 취미를 소개할까 합니다.</p>
+            <p>저는 인테리어를 공부하고 있습니다. 인테리어 동아리에 들어서 페인트칠도 해보고 목공 작업도 해보고 있는데, 
+                이전에 해보지 못한 일들이라 더욱 신기하고 재밌습니다. 꼭 많이 배워서 직접 방에도 적용해보고 싶습니다. 
+                이러한 디자인에 대한 관심들이 커지고 있어 다양한 분야를 알아보려고 합니다.
+                그리고 드라마 보는 게 취미라 슬기로운 의사생활을 보고 있습니다. 평소 좋아하던 배우들이 많이 나오고 워낙 좋아하던 감독의 작품이라
+                매주 목요일을 기대하고 있습니다. 
+            </p>
+        </div>
+
+
+
+  
+        <div class="container" id="con" style="margin-top:75px">
+            <h1 class="xxxlarge"><b>contact</b></h1>
+            <hr style="width:50%; border:3px solid black; float: left; clear: both; "> <br>
+            <ul class="contact-info">
+                <li>+82 010-0000-0000</li>
+                <li><a href="20201015@sungshin.ac.kr">20201015@sungshin.ac.kr</a></li> <br>
+                <a href="https://www.facebook.com/login/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/explore" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com/?gl=KR" class="fa fa-youtube"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+
+
+
+                <footer>
+                    <p class="credit">
+                        Copyright &copy; All rights reserved | by 최유림 </p>
+
+                </footer>
+
+
+
+
+</body>
+
+</html>
